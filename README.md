@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React JS is a JavaScript framework. It aims to solve problems such as being able to retrieve data while still displaying your UI. This is accomplished by using State Hooks and being able to update those without reloading the page.
+
 - [ ] What does it mean to _think_ in react?
+
+  It's the process of thinking about your app as you build it. What components to build and what state to give them, etc.
 
 - [ ] Describe state.
 
+  State is the combination of variables and functions that a React component has access to.
+
 - [ ] Describe props.
 
+  Props are properties passed to React components in order to provide them with variables and functions.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+  Side effects are most of the time unwanted. You use the useEffect named export in order to handle side effects.
 
 ## Project Set Up
 
@@ -60,7 +70,7 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
+- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen.
 - [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
 - [ ] Set the data you fetch to state.
 - [ ] Map over the list and render a component for each character on the page.
